@@ -2,11 +2,16 @@
 <html lang="en">
 
 <head>
+    <!---import jquery--->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!---basic--->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Firebase Test</title>
+    
+    <!---Cascading Style Sheet--->
     <style>
         input {
             height: 50px;
@@ -74,19 +79,29 @@
             background: transparent !important;
         }
     </style>
+    
+    <!---Google Fonts--->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+    
 </head>
 
+<!---Body--->
 <body>
+    <!---From--->
     <from class="f"><br><br><br><br><br><br><br><br>
+        <!---Inputs--->
         <input type="text" id="name" placeholder="Name" /><br>
         <input type="number" id="year" placeholder="Year" /><br>
         <input type="text" id="school" placeholder="School" /><br>
+        
+        <!---Buttons--->
         <button type="submit" id="submit"> <span class="material-icons-outlined"> send </span> </button>
         <button type="submit" id="get"> <span class="material-icons-outlined"> search </span> </button>
+        
+        <!---Info--->
         <textarea id="text" readonly></textarea>
     </from>
-
+    <!---Firebase Main--->
     <script type="module">
 
         // Import the functions you need from the SDKs you need
